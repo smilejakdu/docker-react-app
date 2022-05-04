@@ -12,7 +12,7 @@ function App () {
           target='_blank'
           rel='noopener noreferrer'
         >
-          소스코드 고치면 바뀌는지 테스트해본다.
+          docker compose test
         </a>
       </header>
     </div>
