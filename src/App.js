@@ -12,7 +12,7 @@ function App () {
           target='_blank'
           rel='noopener noreferrer'
         >
-          docker compose test
+          travis test
         </a>
       </header>
     </div>
