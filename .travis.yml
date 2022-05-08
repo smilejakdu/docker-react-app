@@ -15,16 +15,6 @@ script:
  after_success:
  - echo "Test Success"
 
- deploy:
-  provider: elasticbeanstalk
-  region: "ap-northeast-2"
-  app: "docker-react-app"
-  env: "DockerReactApp-env"
-  bucket_name: ""
-  bucket_path: "docker-react-app"
-  on:
-   branch: main
-
 # CI 실행 완료 시 메일로 알람
 notifications:
   email:
